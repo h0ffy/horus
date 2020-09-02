@@ -18,12 +18,15 @@ extern "C" {
 	#endif
 
 	NTSTATUS (__stdcall *_NtWriteVirtualMemory)(PVOID ProcessHandle, PVOID BaseAddress, PVOID Buffer, ULONG NumberOfBytesToWrite, PULONG NumberOfBytesWritten);
+	
+
+	//NTSTATUS (__stdcall *_NtOpenProcess)(void *hProcess, ACCESS_MASK mask, POBJECT_ATTRIBUTES  pObjAttr, PCLIENT_ID clientID);
 	NTSTATUS (__stdcall *_NtOpenProcess)(PHANDLE hProcess, ACCESS_MASK Mask, POBJECT_ATTRIBUTES  pObjAttributes, PCLIENT_ID cID);
 	NTSTATUS (__stdcall *_ZwSetInformationProcess)(void *hProcess, unsigned long ProcessInfoClass, void *ProcessInfo, unsigned long ProcessInfoLength);
 	NTSTATUS (__stdcall *_NtQueryInformationProcess)(void *hProcess, PROCESSINFOCLASS ProcessInformationClass, void *ProcessInformation, unsigned long ProcessInformationLength, unsigned long *ReturnLength);
 	NTSTATUS (__stdcall *_NtQuerySystemInformation)(SYSTEM_INFORMATION_CLASS SystemInformationClass, void *SystemInformation, unsigned long SystemInformationLength, unsigned long *ReturnLength);
 	NTSTATUS (__stdcall *_NtTerminateProcess)(void *hProcess, unsigned long nt_status);
-	NTSTATUS (__stdcall *_NtOpenProcess)(void *hProcess, ACCESS_MASK mask, POBJECT_ATTRIBUTES  pObjAttr, PCLIENT_ID clientID);
+	
 	NTSTATUS (__stdcall *_NtWriteVirtualMemory)(void *ProcessHandle, void *BaseAddress, void *Buffer, unsigned long NumberOfBytesToWrite, unsigned long *NumberOfBytesWritten);
 	NTSTATUS (__stdcall *_NtClose)(void *hHandle);
 	NTSTATUS (__stdcall *_NtWaitForSingleObject)(void *hHandle, int Alertable, LONGLONG *pTimeout);

@@ -9,14 +9,17 @@ EXE = ../bin/gurrukit.dll
 CC = i686-w64-mingw32-gcc
 CPP = i686-w64-mingw32-g++
 #CC = i686-w64-mingw32-gcc
+NASM = nasm
 
-OBJ_MAIN = obj/dllmain.o obj/memory.o obj/info.o obj/hook.o obj/hooking.o obj/misc.o obj/MyFunction.o obj/ReflectiveLoader.o obj/regextract.o obj/reply.o obj/sys.o obj/gurru.o obj/slre.o obj/process.o obj/nt.o
+OBJ_MAIN = obj/dllmain.o obj/memory.o obj/info.o obj/hook.o obj/hooking.o obj/misc.o obj/MyFunction.o obj/ReflectiveLoader.o obj/regextract.o obj/reply.o obj/sys.o obj/gurru.o obj/slre.o obj/process.o obj/nt.o obj/assembly32.o
 OBJ = $(OBJ_MAIN) #$(OBJ_MODULES)
 
 
 
 all: $(EXE)
 
+obj/assembly32.o: src/assembly32.asm
+	$(NASM) -f obj -o obj/assembly32.o src/assembly32.asm
 
 obj/ReflectiveLoader.o: src/ReflectiveLoader.c
 	$(CC) -c $(CFLAGS) -o $@ -I$(INCLUDE) $<

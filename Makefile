@@ -2,6 +2,7 @@
 all: $(EXE)
 
 $(EXE): $(OBJ)
+	mkdir bin
 	cd gurru_loader/
 	make
 	cd ../
@@ -11,9 +12,9 @@ $(EXE): $(OBJ)
 	ls
 
 clean:
-	rm bin/*
+	rm -rf bin
 
 clean-all:
-	rm bin/*
+	rm -rf bin
 
 
