@@ -38,7 +38,7 @@ extern "C" {
 
 
 
-	//int httpInit(void);
+	int httpInit(void);
 	wchar_t *httpRecv(struct _CCHTTP_STRUCT *ccInfo, wchar_t *wData);
 	DWORD httpSend(PCCHTTP ccInfo, wchar_t *wData);
 	DWORD httpInit(PCCHTTP ccInfo);

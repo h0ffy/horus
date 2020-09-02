@@ -1,0 +1,32 @@
+﻿Compilación iniciada a las 21/11/2016 12:03:10.
+     1>Proyecto "C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\gurrukit.vcxproj" en el nodo 2 (Build destinos).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\x64\Debug\gurrukit.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\x64\Debug\gurrukit.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\x64\Debug\gurrukit.lib" /MACHINE:X64 /DLL x64\Debug\cmd.obj
+         x64\Debug\crypto.obj
+         x64\Debug\dllmain.obj
+         x64\Debug\hook.obj
+         x64\Debug\hooking.obj
+         x64\Debug\http.obj
+         x64\Debug\info.obj
+         x64\Debug\ldasm.obj
+         x64\Debug\memory.obj
+         x64\Debug\misc.obj
+         x64\Debug\monitor.obj
+         x64\Debug\nt.obj
+         x64\Debug\process.obj
+         x64\Debug\sdelete.obj
+         x64\Debug\sys.obj
+         x64\Debug\gurru.obj
+         x64\Debug\MyFunction.obj
+         x64\Debug\ReflectiveLoader.obj
+         x64\Debug\regextract.obj
+         x64\Debug\slre.obj
+         x64\Debug\reply.obj
+         x64\Debug\xml.obj
+         ..\..\gurrukit\src\assembly32.obj
+     1>..\..\gurrukit\src\assembly32.obj : fatal error LNK1112: tipo de equipo del módulo 'X86' en conflicto con tipo de equipo de destino 'x64'
+     1>Compilación del proyecto terminada "C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\gurrukit.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:00.54

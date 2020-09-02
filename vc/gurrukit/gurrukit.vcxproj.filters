@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Objects">
+      <UniqueIdentifier>{d5f8507e-4150-4f38-be5e-edc7056d4359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\slre">
+      <UniqueIdentifier>{a7b1bbba-106f-4dcd-b344-bf0d3dc00b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\slre">
+      <UniqueIdentifier>{da6dfb52-51ec-45cc-a0fa-79274aa8cce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\ldasm">
+      <UniqueIdentifier>{4301ec99-c92e-45b9-ba59-1747e49cacd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ldasm">
+      <UniqueIdentifier>{fa1227b2-2e3e-4617-858b-74bdb2999671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\xml">
+      <UniqueIdentifier>{190a9e17-b771-40fd-91b7-6af77af60ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\xml">
+      <UniqueIdentifier>{63203a17-0f9b-494f-a587-f56ebb10eb93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gurrukit\src\info.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\dllmain.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\memory.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\hook.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\MyFunction.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\ReflectiveLoader.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\slre\slre.c">
+      <Filter>Archivos de código fuente\slre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\regextract.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\hooking.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\reply.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\crypto.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\gurru.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\sys.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\misc.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\ldasm\ldasm.c">
+      <Filter>Archivos de código fuente\ldasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\cmd.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\xml\xml.c">
+      <Filter>Archivos de código fuente\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\monitor.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\process.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\nt.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\sdelete.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gurrukit\src\http.c">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gurrukit\src\include\gurrukit.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\payloads.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\nt.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\info.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\config.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\memory.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\hook.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\ReflectiveDLLInjection.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\ReflectiveLoader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\regextract.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\hooking.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\reply.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\gurru.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\crypto.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\sys.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\external\slre.h">
+      <Filter>Archivos de encabezado\slre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\misc.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\http.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\prio.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\external\ldasm.h">
+      <Filter>Archivos de encabezado\ldasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\cmd.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\external\xml.h">
+      <Filter>Archivos de encabezado\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\monitor.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\process.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gurrukit\src\include\sdelete.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\..\gurrukit\src\assembly32.obj">
+      <Filter>Archivos de código fuente\Objects</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,211 @@
+﻿Compilación iniciada a las 11/11/2016 8:00:09.
+     1>Proyecto "C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\gurrukit.vcxproj" en el nodo 3 (Build destinos).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D GURRUKIT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\gurrukit\src\dllmain.c ..\..\gurrukit\src\gurru.c ..\..\gurrukit\src\hook.c ..\..\gurrukit\src\hooking.c ..\..\gurrukit\src\nt.c ..\..\gurrukit\src\process.c ..\..\gurrukit\src\regextract.c ..\..\gurrukit\src\reply.c
+         dllmain.c
+     1>c:\users\pumu\repository\jennycorp\jennysec\jennylab\tools\gurru\gurrukit\src\include/gurrukit.h(5): warning C4005: 'DLL_QUERY_HMODULE' : redefinición de macro
+                 c:\users\pumu\repository\jennycorp\jennysec\jennylab\tools\gurru\gurrukit\src\ReflectiveDLLInjection.h(38) : vea la definición anterior de 'DLL_QUERY_HMODULE'
+     1>..\..\gurrukit\src\dllmain.c(79): warning C4013: 'sysGetImageBase' sin definir; se supone que extern devuelve como resultado int
+     1>..\..\gurrukit\src\dllmain.c(76): warning C4101: 'oldProtect' : variable local sin referencia
+     1>..\..\gurrukit\src\dllmain.c(75): warning C4101: 'lMemoryBasicInformation' : variable local sin referencia
+         gurru.c
+         hook.c
+         hooking.c
+     1>..\..\gurrukit\src\hooking.c(28): warning C4047: 'inicializando' : 'void **' es distinto en los niveles de direccionamiento indirecto de 'DWORD (__stdcall **)(HWND,LPCSTR,LPCSTR,DWORD)'
+     1>..\..\gurrukit\src\hooking.c(28): warning C4047: 'inicializando' : 'void **' es distinto en los niveles de direccionamiento indirecto de 'DWORD (__stdcall **)(HINTERNET,LPCSTR,DWORD,LPVOID,DWORD)'
+     1>..\..\gurrukit\src\hooking.c(28): warning C4047: 'inicializando' : 'void **' es distinto en los niveles de direccionamiento indirecto de 'INT32 (__cdecl **)(HANDLE,PCHAR,INT32)'
+     1>..\..\gurrukit\src\hooking.c(28): warning C4047: 'inicializando' : 'void **' es distinto en los niveles de direccionamiento indirecto de 'int (__cdecl **)(SOCKET,const char *,int,int)'
+     1>..\..\gurrukit\src\hooking.c(28): warning C4047: 'inicializando' : 'void **' es distinto en los niveles de direccionamiento indirecto de 'LONG (__stdcall **)(PCtxtHandle,ULONG,PSecBufferDesc,ULONG)'
+     1>..\..\gurrukit\src\hooking.c(101): warning C4047: '=' : 'char *' es distinto en los niveles de direccionamiento indirecto de 'unsigned long'
+     1>..\..\gurrukit\src\hooking.c(104): warning C4047: '=' : 'PIMAGE_THUNK_DATA32' es distinto en los niveles de direccionamiento indirecto de 'unsigned long'
+     1>..\..\gurrukit\src\hooking.c(105): warning C4047: '=' : 'PIMAGE_THUNK_DATA32' es distinto en los niveles de direccionamiento indirecto de 'unsigned long'
+     1>..\..\gurrukit\src\hooking.c(111): warning C4047: '=' : 'char *' es distinto en los niveles de direccionamiento indirecto de 'unsigned long'
+     1>..\..\gurrukit\src\hooking.c(113): warning C4133: 'función' : tipos incompatibles, de 'char *' a 'LPCWSTR'
+     1>..\..\gurrukit\src\hooking.c(116): warning C4047: 'return' : 'int' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(118): warning C4047: '=' : 'unsigned int' es distinto en los niveles de direccionamiento indirecto de 'LPVOID *'
+     1>..\..\gurrukit\src\hooking.c(68): warning C4101: 'pImportByName' : variable local sin referencia
+     1>..\..\gurrukit\src\hooking.c(65): warning C4101: 'pDataDirectory' : variable local sin referencia
+     1>..\..\gurrukit\src\hooking.c(64): warning C4101: 'pSectionHeader' : variable local sin referencia
+     1>..\..\gurrukit\src\hooking.c(70): warning C4101: 'dwHint' : variable local sin referencia
+     1>..\..\gurrukit\src\hooking.c(69): warning C4101: 'dwNameOffset' : variable local sin referencia
+     1>..\..\gurrukit\src\hooking.c(152): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(153): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(156): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(170): warning C4022: 'VirtualQuery' : no coincide el puntero para el parámetro real 1
+     1>..\..\gurrukit\src\hooking.c(171): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(142): warning C4101: 'dwEATFuncPTR' : variable local sin referencia
+     1>..\..\gurrukit\src\hooking.c(198): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(202): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(218): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(221): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(225): warning C4047: 'return' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\hooking.c(196): warning C4101: 'buff' : variable local sin referencia
+     1>..\..\gurrukit\src\hooking.c(249): warning C4047: '=' : 'DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+         nt.c
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(66): warning C4005: 'STATUS_WAIT_0' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2210) : vea la definición anterior de 'STATUS_WAIT_0'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(212): warning C4005: 'STATUS_ABANDONED_WAIT_0' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2211) : vea la definición anterior de 'STATUS_ABANDONED_WAIT_0'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(235): warning C4005: 'STATUS_USER_APC' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2212) : vea la definición anterior de 'STATUS_USER_APC'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(262): warning C4005: 'STATUS_TIMEOUT' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2213) : vea la definición anterior de 'STATUS_TIMEOUT'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(271): warning C4005: 'STATUS_PENDING' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2214) : vea la definición anterior de 'STATUS_PENDING'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(682): warning C4005: 'DBG_EXCEPTION_HANDLED' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2215) : vea la definición anterior de 'DBG_EXCEPTION_HANDLED'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(691): warning C4005: 'DBG_CONTINUE' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2216) : vea la definición anterior de 'DBG_CONTINUE'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(766): warning C4005: 'STATUS_SEGMENT_NOTIFICATION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2217) : vea la definición anterior de 'STATUS_SEGMENT_NOTIFICATION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(929): warning C4005: 'STATUS_FATAL_APP_EXIT' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2218) : vea la definición anterior de 'STATUS_FATAL_APP_EXIT'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1258): warning C4005: 'DBG_TERMINATE_THREAD' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2219) : vea la definición anterior de 'DBG_TERMINATE_THREAD'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1267): warning C4005: 'DBG_TERMINATE_PROCESS' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2220) : vea la definición anterior de 'DBG_TERMINATE_PROCESS'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1276): warning C4005: 'DBG_CONTROL_C' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2221) : vea la definición anterior de 'DBG_CONTROL_C'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1285): warning C4005: 'DBG_PRINTEXCEPTION_C' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2222) : vea la definición anterior de 'DBG_PRINTEXCEPTION_C'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1294): warning C4005: 'DBG_RIPEXCEPTION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2223) : vea la definición anterior de 'DBG_RIPEXCEPTION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1303): warning C4005: 'DBG_CONTROL_BREAK' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2224) : vea la definición anterior de 'DBG_CONTROL_BREAK'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1312): warning C4005: 'DBG_COMMAND_EXCEPTION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2225) : vea la definición anterior de 'DBG_COMMAND_EXCEPTION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1344): warning C4005: 'STATUS_GUARD_PAGE_VIOLATION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2226) : vea la definición anterior de 'STATUS_GUARD_PAGE_VIOLATION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1355): warning C4005: 'STATUS_DATATYPE_MISALIGNMENT' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2227) : vea la definición anterior de 'STATUS_DATATYPE_MISALIGNMENT'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1366): warning C4005: 'STATUS_BREAKPOINT' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2228) : vea la definición anterior de 'STATUS_BREAKPOINT'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1377): warning C4005: 'STATUS_SINGLE_STEP' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2229) : vea la definición anterior de 'STATUS_SINGLE_STEP'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1680): warning C4005: 'STATUS_LONGJUMP' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2230) : vea la definición anterior de 'STATUS_LONGJUMP'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1707): warning C4005: 'STATUS_UNWIND_CONSOLIDATE' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2231) : vea la definición anterior de 'STATUS_UNWIND_CONSOLIDATE'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1784): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2232) : vea la definición anterior de 'DBG_EXCEPTION_NOT_HANDLED'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1913): warning C4005: 'STATUS_ACCESS_VIOLATION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2233) : vea la definición anterior de 'STATUS_ACCESS_VIOLATION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1922): warning C4005: 'STATUS_IN_PAGE_ERROR' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2234) : vea la definición anterior de 'STATUS_IN_PAGE_ERROR'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1940): warning C4005: 'STATUS_INVALID_HANDLE' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2235) : vea la definición anterior de 'STATUS_INVALID_HANDLE'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(1985): warning C4005: 'STATUS_INVALID_PARAMETER' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2236) : vea la definición anterior de 'STATUS_INVALID_PARAMETER'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(2085): warning C4005: 'STATUS_NO_MEMORY' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2237) : vea la definición anterior de 'STATUS_NO_MEMORY'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(2142): warning C4005: 'STATUS_ILLEGAL_INSTRUCTION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2238) : vea la definición anterior de 'STATUS_ILLEGAL_INSTRUCTION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(2223): warning C4005: 'STATUS_NONCONTINUABLE_EXCEPTION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2239) : vea la definición anterior de 'STATUS_NONCONTINUABLE_EXCEPTION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(2232): warning C4005: 'STATUS_INVALID_DISPOSITION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2240) : vea la definición anterior de 'STATUS_INVALID_DISPOSITION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3155): warning C4005: 'STATUS_ARRAY_BOUNDS_EXCEEDED' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2241) : vea la definición anterior de 'STATUS_ARRAY_BOUNDS_EXCEEDED'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3165): warning C4005: 'STATUS_FLOAT_DENORMAL_OPERAND' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2242) : vea la definición anterior de 'STATUS_FLOAT_DENORMAL_OPERAND'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3175): warning C4005: 'STATUS_FLOAT_DIVIDE_BY_ZERO' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2243) : vea la definición anterior de 'STATUS_FLOAT_DIVIDE_BY_ZERO'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3185): warning C4005: 'STATUS_FLOAT_INEXACT_RESULT' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2244) : vea la definición anterior de 'STATUS_FLOAT_INEXACT_RESULT'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3195): warning C4005: 'STATUS_FLOAT_INVALID_OPERATION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2245) : vea la definición anterior de 'STATUS_FLOAT_INVALID_OPERATION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3205): warning C4005: 'STATUS_FLOAT_OVERFLOW' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2246) : vea la definición anterior de 'STATUS_FLOAT_OVERFLOW'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3215): warning C4005: 'STATUS_FLOAT_STACK_CHECK' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2247) : vea la definición anterior de 'STATUS_FLOAT_STACK_CHECK'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3225): warning C4005: 'STATUS_FLOAT_UNDERFLOW' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2248) : vea la definición anterior de 'STATUS_FLOAT_UNDERFLOW'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3235): warning C4005: 'STATUS_INTEGER_DIVIDE_BY_ZERO' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2249) : vea la definición anterior de 'STATUS_INTEGER_DIVIDE_BY_ZERO'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3245): warning C4005: 'STATUS_INTEGER_OVERFLOW' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2250) : vea la definición anterior de 'STATUS_INTEGER_OVERFLOW'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(3255): warning C4005: 'STATUS_PRIVILEGED_INSTRUCTION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2251) : vea la definición anterior de 'STATUS_PRIVILEGED_INSTRUCTION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(4201): warning C4005: 'STATUS_STACK_OVERFLOW' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2252) : vea la definición anterior de 'STATUS_STACK_OVERFLOW'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(4718): warning C4005: 'STATUS_DLL_NOT_FOUND' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2253) : vea la definición anterior de 'STATUS_DLL_NOT_FOUND'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(4747): warning C4005: 'STATUS_ORDINAL_NOT_FOUND' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2254) : vea la definición anterior de 'STATUS_ORDINAL_NOT_FOUND'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(4757): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2255) : vea la definición anterior de 'STATUS_ENTRYPOINT_NOT_FOUND'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(4767): warning C4005: 'STATUS_CONTROL_C_EXIT' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2256) : vea la definición anterior de 'STATUS_CONTROL_C_EXIT'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(4845): warning C4005: 'STATUS_DLL_INIT_FAILED' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2257) : vea la definición anterior de 'STATUS_DLL_INIT_FAILED'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(7319): warning C4005: 'STATUS_FLOAT_MULTIPLE_FAULTS' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2258) : vea la definición anterior de 'STATUS_FLOAT_MULTIPLE_FAULTS'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(7329): warning C4005: 'STATUS_FLOAT_MULTIPLE_TRAPS' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2259) : vea la definición anterior de 'STATUS_FLOAT_MULTIPLE_TRAPS'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(7461): warning C4005: 'STATUS_REG_NAT_CONSUMPTION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2260) : vea la definición anterior de 'STATUS_REG_NAT_CONSUMPTION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(8435): warning C4005: 'STATUS_HEAP_CORRUPTION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2261) : vea la definición anterior de 'STATUS_HEAP_CORRUPTION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(8663): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2262) : vea la definición anterior de 'STATUS_STACK_BUFFER_OVERRUN'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(8790): warning C4005: 'STATUS_INVALID_CRUNTIME_PARAMETER' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2263) : vea la definición anterior de 'STATUS_INVALID_CRUNTIME_PARAMETER'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(8853): warning C4005: 'STATUS_ASSERTION_FAILURE' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2264) : vea la definición anterior de 'STATUS_ASSERTION_FAILURE'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(12894): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2266) : vea la definición anterior de 'STATUS_SXS_EARLY_DEACTIVATION'
+     1>C:\Program Files\Windows Kits\8.1\Include\shared\ntstatus.h(12903): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION' : redefinición de macro
+                 C:\Program Files\Windows Kits\8.1\Include\um\winnt.h(2267) : vea la definición anterior de 'STATUS_SXS_INVALID_DEACTIVATION'
+     1>..\..\gurrukit\src\nt.c(9): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(void *,unsigned long,void *,unsigned long)'
+     1>..\..\gurrukit\src\nt.c(10): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(void *,PROCESSINFOCLASS,void *,unsigned long,unsigned long *)'
+     1>..\..\gurrukit\src\nt.c(11): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(SYSTEM_INFORMATION_CLASS,void *,unsigned long,unsigned long *)'
+     1>..\..\gurrukit\src\nt.c(12): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(void *,unsigned long)'
+     1>..\..\gurrukit\src\nt.c(13): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(void *,PSECURITY_DESCRIPTOR,int,unsigned long,unsigned long *,unsigned long *,void *,void *,void *,PCLIENT_ID)'
+     1>..\..\gurrukit\src\nt.c(14): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(unsigned long,int,int,int *)'
+     1>..\..\gurrukit\src\nt.c(15): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'PIMAGE_NT_HEADERS (__stdcall *)(void *)'
+     1>..\..\gurrukit\src\nt.c(15): warning C4047: '=' : 'PIMAGE_NT_HEADERS (__stdcall *)(void *)' es distinto en los niveles de direccionamiento indirecto de 'FARPROC'
+     1>..\..\gurrukit\src\nt.c(16): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(PVOID,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+     1>..\..\gurrukit\src\nt.c(17): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(PVOID,PVOID,PVOID,ULONG,PULONG)'
+     1>..\..\gurrukit\src\nt.c(18): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(void *)'
+     1>..\..\gurrukit\src\nt.c(19): warning C4113: 'FARPROC' es distinto en las listas de parámetros de 'NTSTATUS (__stdcall *)(void *,int,LONGLONG *)'
+         process.c
+         regextract.c
+     1>..\..\gurrukit\src\regextract.c(17): warning C4129: ',' : secuencia de escape de carácter no reconocida
+     1>..\..\gurrukit\src\regextract.c(18): warning C4129: ',' : secuencia de escape de carácter no reconocida
+     1>..\..\gurrukit\src\regextract.c(43): warning C4047: 'inicializando' : 'const DWORD' es distinto en los niveles de direccionamiento indirecto de 'void *'
+     1>..\..\gurrukit\src\regextract.c(50): warning C4101: 'caps' : variable local sin referencia
+     1>..\..\gurrukit\src\regextract.c(77): warning C4090: '=' : distintos calificadores 'const'
+         reply.c
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\Release\gurrukit.dll" /INCREMENTAL /NOLOGO ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\Release\gurrukit.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\Release\gurrukit.lib" /MACHINE:X86 /SAFESEH /DLL Release\cmd.obj
+         Release\crypto.obj
+         Release\dllmain.obj
+         Release\hook.obj
+         Release\hooking.obj
+         Release\http.obj
+         Release\info.obj
+         Release\ldasm.obj
+         Release\memory.obj
+         Release\misc.obj
+         Release\monitor.obj
+         Release\nt.obj
+         Release\process.obj
+         Release\sys.obj
+         Release\gurru.obj
+         Release\MyFunction.obj
+         Release\ReflectiveLoader.obj
+         Release\regextract.obj
+         Release\slre.obj
+         Release\reply.obj
+         Release\xml.obj
+         ..\..\gurrukit\src\asm32.obj
+     1>LINK : warning LNK4075: se omite '/INCREMENTAL' debido a la especificación '/LTCG'
+            Creando biblioteca C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\Release\gurrukit.lib y objeto C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\Release\gurrukit.exp
+         Generando código
+         Generación de código finalizada
+         gurrukit.vcxproj -> C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\Release\gurrukit.dll
+     1>Compilación del proyecto terminada "C:\Users\pumu\Repository\jennycorp\jennysec\jennylab\tools\gurru\vc\gurrukit\gurrukit.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:07.56
